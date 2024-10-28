@@ -1,4 +1,4 @@
 package br.com.stefany.forum.exception
 
-class NotFoundException {
+class NotFoundException (message : String?) : RuntimeException(message) {
 }
